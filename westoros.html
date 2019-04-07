@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Welcome to Westoros</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+          <ul class="topnav" id="dropdownClick">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#NarrowSeanews">Narrow Sea News</a></li>
+          <li><a href="#aboutthekingdom">About the Kingdom</a></li>
+          <li class="topnav-right"><a href="#editorials">Editorials</a></li>
+          <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+          <li class="topnav-right"><a href="#Sign In">Sign In</a></li>
+          <li class="dropdownIcon"><a href="javscript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+          </ul>
+        </nav>
+        
+        <div class="container" id="section-1-gradient">
+           <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="Large">Westorosi Dragonette</h1>
+                    <h1 class="Large">News for the Trueborn Westorosi!</h1>
+                </div>
+                
+                <form>
+                    <div class="leftSide-col">
+                        <h2>Username</h2>
+                        <input class="inputbox" name="housename" type="text" placeholder="Housename">
+                        <h2>Password</h2>
+                        <input class="inputbox" name="password" type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+               
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <div class="videoContainer">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3wMV0DRTZfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>   
+           </div>
+            
+        </div>
+        
+        <header>
+          <h1 class="section2Header">The Dragon has 3 Heads</h1>
+        </header>
+        <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <div class="box">
+                      <div class="icon">
+                          <img src="3headdragon.jpg">
+                      </div>
+                      <label>The King</label>
+                      <p>The King of the Andals, the Rhoynar, and the First Men (feminine equivalent being Queen of the Andals, the Rhoynar, and the First Men), is the ruler of the Seven Kingdoms.</p>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="box">
+                      <div class="icon">
+                          <img src="3headdragon.jpg">
+                      </div>
+                      <label>The King's Hand</label>
+                      <p>The Hand of the King or Hand of the Queen, or simply the King's Hand, is the most powerful appointed position in the Seven Kingdoms, second only to the King in authority and responsibility.</p>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="box">
+                      <div class="icon">
+                          <img src="3headdragon.jpg">
+                      </div>
+                      <label>The Kings Guard</label>
+                      <p>The Kingsguard, also known as the White Cloaks or the White Swords, is a sworn brotherhood of seven knights appointed the task of protecting the king of Westeros, the royal family and their guests.</p>
+                  </div>
+              </div>
+          </div>
+            <div class="row">
+                <div class="col-12">
+                <button class="learnmore">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+         <div class="row">
+          <div class="col-7">
+            <article>
+            <p>The King of the Andals, the Rhoynar, and the First Men (feminine equivalent being Queen of the Andals, the Rhoynar, and the First Men), is the ruler of the Seven Kingdoms. The Hand of the King or Hand of the Queen, or simply the King's Hand, is the most powerful appointed position in the Seven Kingdoms, second only to the King in authority and responsibility. The Kingsguard, also known as the White Cloaks or the White Swords, is a sworn brotherhood of seven knights appointed the task of protecting the king of Westeros, the royal family and their guests.</p>  
+            </article>  
+          </div>
+         <div class="col-5">
+            <div class="GOTIcon">
+            <img src="GOTsygil.jpg">
+            </div>
+         </div>
+        </div>
+        </div>
+        
+        <footer class="footsy">
+          <div class="row">
+            <div class="col-3 mobileStack">
+              <h1>House</h1>
+              <ul>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Blog">Blog</a></li>
+                  <li><a href="#Careers">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-3 mobileStack">
+              <h1>The Bloody Road</h1>
+              <ul>
+                  <li><a href="#ValerianSteel">Valerian Steel</a></li>
+                  <li><a href="#Posions">Poisons</a></li>
+                  <li><a href="#Wildfire">Wildfire</a></li>
+              </ul>
+            </div>
+            <div class="col-3 mobileStack">
+              <h1>Maester's Corner</h1>
+              <ul>
+                  <li><a href="#BlackIronChain">Black Iron Chain</a></li>
+                  <li><a href="#GoldChain">Gold</a></li>
+                  <li><a href="#ValerianSteelChain">Valerian Steel</a></li>
+              </ul>
+            </div>
+            <div class="col-3 mobileStack">
+              <h1>God's be Good</h1>
+              <ul>
+                  <li><a href="#Septons">Septons</a></li>
+                  <li><a href="#SilentSister">Silent Sisters</a></li>
+                  <li><a href="#RedPriests">Red Priests</a></li>
+              </ul>
+            </div>  
+          </div>
+        
+        </footer>
+        
+    
+        
+        <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if(x.className === "topnav") {
+                x.className +=" responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+            
+            
+            
+        </script>
+    
+    </body>
+    
+    
+</html>
